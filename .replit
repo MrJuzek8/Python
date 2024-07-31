@@ -1,4 +1,4 @@
-entrypoint = "main2.py"
+entrypoint = "zadanieBartek.py"
 modules = ["python-3.10"]
 
 [nix]
