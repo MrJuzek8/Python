@@ -24,5 +24,24 @@ zbiór2.add("nie")
 zbiór2.remove("tak")
 print(zbiór2)
 
+zbiór1 = {1,3,4,8}
+zbiór3=  {1,3,4,5}
+
+zbiór4 = zbiór1.union(zbiór3)
+print("zbiór 4:", zbiór4)
+zbiór41 = zbiór1.intersection(zbiór3)
+print("zbiór 41:", zbiór41)
+
+zbiór8 = zbiór1.difference(zbiór3)
+print("zbiór 8:", zbiór8)
+#operacje takie jak na listach
+
+
 for element in zbiór2:
+  print(element)
+zbiór9 = {1,2,3}
+lista2 = [4,5,6]
+lista2.extend(zbiór9)
+
+for element in lista2:
   print(element)
