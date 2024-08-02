@@ -31,3 +31,10 @@ for klucz, wartosc in słownik.items():
 
 
 słownik.get("Robert")
+print(słownik.pop("Robert"))
+
+słownik["Andrzej"]="andrzej@gmail.com"
+
+
+słownik.update({"Marcin": "m@gmail.com"})
+print(słownik)

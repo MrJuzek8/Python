@@ -1,4 +1,4 @@
-entrypoint = "krotka.py"
+entrypoint = "codewars.py"
 modules = ["python-3.10"]
 
 [nix]
